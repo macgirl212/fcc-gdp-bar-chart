@@ -1,0 +1,33 @@
+body {
+    color: #081c15;
+    background: #40916c;
+}
+
+#title {
+    color: white;
+    text-align: center;
+}
+
+.graph {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 30px;
+    border: 1px solid green;
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 10px #081c15;
+}
+
+.bar {
+    &:hover {
+        fill: #74c69d;
+    }
+}
+
+#tooltip {
+    color: #081c15;
+    letter-spacing: 2px;
+    border: 1px solid #081c15;
+    border-radius: 3px;
+}
